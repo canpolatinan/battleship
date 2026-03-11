@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amiral Battı - Siber Taktik Komuta v2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="savas-alani-body">
+
+    <div class="crt-scanline"></div>
+
+    <div class="ana-konteyner">
+        <h1 class="baslik">AMİRAL BATTI</h1>
+        <h2 id="bilgi-ekrani">SİSTEM BAŞLATILIYOR...</h2>
+
+        <div class="istatistik-paneli">
+            <div class="stat-kutu">HEDEF İSABETİ: <span id="oyuncu-isabet">%0</span></div>
+            <div class="stat-kutu">DÜŞMAN TEHDİDİ: <span id="dusman-tehdit">5 GEMİ</span></div>
+        </div>
+
+        <div class="savas-alani">
+            <div class="tahta-konteyner">
+                <h3>MÜTTEFİK DONANMASI</h3>
+                <div class="tahta-grup">
+                    <div class="k-bos"></div>
+                    <div class="k-ust" id="o-ust"></div>
+                    <div class="k-sol" id="o-sol"></div>
+                    <div id="oyuncu-grid" class="grid"></div>
+                </div>
+            </div>
+
+            <div class="tahta-konteyner">
+                <h3 class="kirmizi-baslik">DÜŞMAN RADARI</h3>
+                <div class="tahta-grup">
+                    <div class="k-bos"></div>
+                    <div class="k-ust" id="d-ust"></div>
+                    <div class="k-sol" id="d-sol"></div>
+                    <div id="dusman-grid" class="grid"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="kontrol-paneli">
+            <select id="zorluk-secimi" class="ozel-buton" style="cursor: pointer;">
+                <option value="kolay">AI: ACEMİ (KOLAY)</option>
+                <option value="orta" selected>AI: TAKTİKSEL (ORTA)</option>
+                <option value="zor">AI: SİBER ZEKA (ZOR)</option>
+            </select>
+
+            <button id="yeni-operasyon-btn" class="ozel-buton">YENİ DİZİLİM</button>
+            <button id="basla-btn" class="ozel-buton">SAVAŞI BAŞLAT</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
