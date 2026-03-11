@@ -1,4 +1,4 @@
-# 🚢 Battleship - Cyber Tactical Command v2.0
+# 🚢 Battleship 
 
 
 A modern, web-based Battleship simulation designed with a retro-cyberpunk tactical terminal UI. It features a multi-tiered AI opponent utilizing data structures (Stacks) and parity algorithms for optimized hunting.
